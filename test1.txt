@@ -9,3 +9,4 @@ private void buttonFind_Click(object sender, EventArgs e)
                 textBoxResult.Text = "Ошибка: строка пуста!";
                 return;
             }
+
