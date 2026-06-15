@@ -1,1 +1,11 @@
 Анкудинов Станислав
+
+private void buttonFind_Click(object sender, EventArgs e)
+        {           
+            string inputString = textBoxInput.Text;
+            
+            if (string.IsNullOrWhiteSpace(inputString))
+            {
+                textBoxResult.Text = "Ошибка: строка пуста!";
+                return;
+            }
